@@ -1,7 +1,7 @@
 #import random
 #import time
 #from Branch.Recovery.Armour import *
-from Branch.Recovery.Dueller import *
+from dueller import *
 #from Branch.Recovery.People import *
 #from Branch.Recovery.Weapons import *
 #from Branch.Recovery.Initiative import *
