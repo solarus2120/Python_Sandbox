@@ -17,7 +17,7 @@ def dueller():
     elif combatant1 == "Lucien":
         combatant1 = Lucien
     else:
-        print("You have entered an incorrect name")
+        print("You have entered an incorrect name. Exiting.")
         exit()
 
     combatant2 = input("Select the second combatant: ")
@@ -29,11 +29,11 @@ def dueller():
     elif combatant2 == "Lucien":
         combatant2 = Lucien
     else:
-        print("You have entered an incorrect name")
+        print("You have entered an incorrect name. Exiting")
         exit()
 
     if combatant1 == combatant2:
-        print("{} cannot duel themselves!".format(combatant1.name))
+        print("{} cannot duel themselves! Exiting".format(combatant1.name))
         exit()
 
     while combatant1.status != "Dead" and combatant2.status != "Dead":  # and Cassandra.status != "Dead":

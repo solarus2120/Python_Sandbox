@@ -8,6 +8,4 @@ from dueller import *
 #from Branch.Recovery.Data import *
 
 
-print("Hello world")
-
 dueller()
