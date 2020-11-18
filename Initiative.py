@@ -1,5 +1,5 @@
-from Branch.Recovery.Data import *
-from Branch.Recovery.Weapons import *
+from data import *
+from weapons import *
 import random, time
 
 

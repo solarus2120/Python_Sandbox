@@ -1,6 +1,6 @@
-from Branch.Recovery.Data import *
-from Branch.Recovery.Initiative import *
-from Branch.Recovery.Weapons import *
+from data import *
+from initiative import *
+from weapons import *
 
 
 def dueller():

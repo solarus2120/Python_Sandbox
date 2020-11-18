@@ -1,7 +1,7 @@
 import time
-from Branch.Recovery.Data import *
-from Branch.Recovery.Weapons import *
-from Branch.Recovery.Armour import *
+from data import *
+from weapons import *
+from armour import *
 
 
 class People:

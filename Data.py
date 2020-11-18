@@ -1,6 +1,6 @@
-from Branch.Recovery.People import *
-from Branch.Recovery.Weapons import *
-from Branch.Recovery.Armour import *
+from people import *
+from weapons import *
+from armour import *
 
 Lucien = People("Lucien", "Healthy", "Long Blade", 10, 40, "Swordsman", "Suit of Mail")
 Kitania = People("Kitania", "Healthy", "War Axe", 10, 40, "Myrmidon", "Leather Breastplate")
