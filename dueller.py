@@ -1,6 +1,7 @@
 # from data import *
 from initiative import *
 # from weapons import *
+from who_fights import *
 
 
 def dueller():
@@ -8,7 +9,10 @@ def dueller():
     Kitania.introduce()
     Cassandra.introduce()
 
-    combatant1 = input("Select the first combatant: ")
+    combatant1 = who_fights()
+    combatant2 = who_fights()
+
+#    combatant1 = input("Select the first combatant: ")
 
     if combatant1 == "Cassandra":
         combatant1 = Cassandra
@@ -20,7 +24,7 @@ def dueller():
         print("You have entered an incorrect name. Exiting.")
         exit()
 
-    combatant2 = input("Select the second combatant: ")
+#    combatant2 = input("Select the second combatant: ")
 
     if combatant2 == "Cassandra":
         combatant2 = Cassandra

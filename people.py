@@ -2,7 +2,8 @@ import time
 from data import *
 # from weapons import *
 # from armour import *
-# from data import LongBlade
+from weapon_check import *
+from armour_check import *
 
 
 class People:
@@ -26,25 +27,9 @@ class People:
         wpn = None
         amr = None
 
-        if self.equip == LongBlade.name:
-            wpn = LongBlade
-        elif self.equip == WarAxe.name:
-            wpn = WarAxe
-        elif self.equip == SmallBlade.name:
-            wpn = SmallBlade
+        wpn = weapon_check((self.name))
 
-        if target.armour_equip == Shirt.name:
-            amr = Shirt
-        elif target.armour_equip == Hauberk.name:
-            amr = Hauberk
-        elif target.armour_equip == Byrnie.name:
-            amr = Byrnie
-        elif target.armour_equip == Suit.name:
-            amr = Suit
-        elif target.armour_equip == Breastplate.name:
-            amr = Breastplate
-        elif target.armour_equip == Jack.name:
-            amr = Jack
+        amr = armour_check(target.name)
 
         if not amr.protect_me(amr.protection):
             target.health -= wpn.damage
