@@ -1,3 +1,7 @@
+import time
+import random
+
+
 class Armour:
     def __init__(self, name, metal, weight, protection):
         self.name = name

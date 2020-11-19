@@ -1,7 +1,7 @@
 import time
 from data import *
-from weapons import *
-from armour import *
+# from weapons import *
+# from armour import *
 
 
 class People:

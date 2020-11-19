@@ -1,6 +1,6 @@
-from data import *
+# from data import *
 from initiative import *
-from weapons import *
+# from weapons import *
 
 
 def dueller():

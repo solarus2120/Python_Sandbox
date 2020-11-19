@@ -1,5 +1,5 @@
 from data import *
-from weapons import *
+# from weapons import *
 import random
 import time
 
