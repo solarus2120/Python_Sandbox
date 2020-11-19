@@ -1,11 +1,11 @@
-#import random
-#import time
-#from Branch.Recovery.Armour import *
+# import random
+# import time
+# from armour import *
 from dueller import *
-#from Branch.Recovery.People import *
-#from Branch.Recovery.Weapons import *
-#from Branch.Recovery.Initiative import *
-#from Branch.Recovery.Data import *
+# from people import *
+# from weapons import *
+# from initiative import *
+# from data import *
 
 
 dueller()

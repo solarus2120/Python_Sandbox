@@ -1,6 +1,7 @@
 from data import *
 from weapons import *
-import random, time
+import random
+import time
 
 
 def initiative(fight_a, fight_b):
