@@ -16,3 +16,7 @@ Byrnie = Mail("Mail Byrnie", True, "Medium", "Head, Torso and Arms", 3)
 Suit = Mail("Suit of Mail", True, "Heavy", "Head, Torso, Arms and Legs", 4)
 Breastplate = Leather("Leather Breastplate", False, "Light", "Cow", 2)
 Jack = Leather("Leather Jack", False, "Light", "Sheep", 1)
+
+dictionary_names = {"Lucien": Lucien, "Kitania": Kitania, "Cassandra": Cassandra}
+dictionary_weapons = {"Long Blade": LongBlade, "War Axe": WarAxe, "Small Blade": SmallBlade}
+
