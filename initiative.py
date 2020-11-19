@@ -6,6 +6,9 @@ import time
 
 
 def initiative(fight_a, fight_b):
+    print("Initiative Function. fight_a = {}".format(fight_a))
+    print("Initiative Function fight_b = {}".format(fight_b))
+
     int_a_init_check = random.randrange(1, 7, 1)
     int_b_init_check = random.randrange(1, 7, 1)
 
@@ -13,9 +16,12 @@ def initiative(fight_a, fight_b):
     wpn_b = None
 
     wpn_a = weapon_check(fight_a)
-    wpn_b = weapon_check(fight_b)
+    print("Initiative Function. wpn_a = {}".format(wpn_a))
 
-    int_a_init_check = int_a_init_check+wpn_a.init_mod # currently errors here
+    wpn_b = weapon_check(fight_b)
+    print("Initiative Function. wpn_b = {}".format(wpn_b))
+
+    int_a_init_check = int_a_init_check+wpn_a.init_mod
     int_b_init_check = int_b_init_check+wpn_b.init_mod
 
     if int_a_init_check > int_b_init_check:  # A has initiative

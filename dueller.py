@@ -14,27 +14,27 @@ def dueller():
 
 #    combatant1 = input("Select the first combatant: ")
 
-    if combatant1 == "Cassandra":
-        combatant1 = Cassandra
-    elif combatant1 == "Kitania":
-        combatant1 = Kitania
-    elif combatant1 == "Lucien":
-        combatant1 = Lucien
-    else:
-        print("You have entered an incorrect name. Exiting.")
-        exit()
+#    if combatant1 == "Cassandra":
+#        combatant1 = Cassandra
+#    elif combatant1 == "Kitania":
+#        combatant1 = Kitania
+#    elif combatant1 == "Lucien":
+#        combatant1 = Lucien
+#    else:
+#        print("You have entered an incorrect name1. Exiting.")
+#        exit()
 
 #    combatant2 = input("Select the second combatant: ")
 
-    if combatant2 == "Cassandra":
-        combatant2 = Cassandra
-    elif combatant2 == "Kitania":
-        combatant2 = Kitania
-    elif combatant2 == "Lucien":
-        combatant2 = Lucien
-    else:
-        print("You have entered an incorrect name. Exiting")
-        exit()
+#    if combatant2 == "Cassandra":
+#        combatant2 = Cassandra
+#    elif combatant2 == "Kitania":
+#        combatant2 = Kitania
+#    elif combatant2 == "Lucien":
+#        combatant2 = Lucien
+#    else:
+#        print("You have entered an incorrect name2. Exiting")
+#        exit()
 
     if combatant1 == combatant2:
         print("{} cannot duel themselves! Exiting".format(combatant1.name))
